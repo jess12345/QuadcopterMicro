@@ -76,8 +76,8 @@ float GP2Y0A21_getDistance(void);
 
 // ====================== Ultrasound ====================== //
 //void ultrasound_test();
-void untrasound_initialise(void);
-int untrasound_getDistance(void);
+//void untrasound_initialise(void);
+//int untrasound_getDistance(void);
 
 // ======================== Timer ========================= //
 void timer1_test(void); //UNTESTED!!!

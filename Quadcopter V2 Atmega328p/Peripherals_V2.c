@@ -353,13 +353,16 @@ void ultrasound_test()
 */
 
 // FUNCTION: Initialise ultrasound
+/*
 void untrasound_initialise(void)
 {
 	
 	
 }
+*/
 
 // FUNCTION: Get distance (in millimeters)
+/*
 int untrasound_getDistance(void)
 {
 	int distance = 0;
@@ -368,7 +371,7 @@ int untrasound_getDistance(void)
 	
 	return distance;
 }
-
+*/
 
 // ======================== Timer ========================= //
 
