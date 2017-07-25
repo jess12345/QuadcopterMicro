@@ -11,6 +11,20 @@
 
 
 
+// ===================== State Machine ==================== //
+
+enum QState {CALIBRATION, IDLE, BLASTOFF, FLY, TOUCHDOWN, TEST};
+void runStateMachine(void);
+
+
+// ======================= Test Code ====================== //
+
+QState runTestState(void);
+QState runCalibrationState(void);
+QState runIdleState(void);
+QState runBlastoffState(void);
+QState runFlyState(void);
+QState runTouchdownState(void);
 
 
 #endif /* QUADCOPTER_V2_H_ */
